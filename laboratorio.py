@@ -22,3 +22,6 @@ def ambiente():
             time. sleep (5) #Hace un esfuerzo ya que cambio de estado
             print('Ambiente Natural en la Aula \n')  #imprime el estado actual del sensor de humo
         elif estado [1] == 1:
+            print ('Ambiente Normal en la Aula.')
+            print ('Ambiente Natural en la Aula \n') 
+            #Aqui no hace ningun esfuerzo ya que su estado se mantiene
