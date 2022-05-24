@@ -9,3 +9,16 @@ def ambiente():
         ambientes = random.randint (0,2) # el rango osilan entre 0 a 2 ya que hay estarian los tres entornos
         estado.append(ambientes) 
         print (estado) #imprimir mi estado actual
+        
+        def agente(): #Inicializo la funcion
+            for x in range (3):
+                ambiente ()
+        
+        #ENTORNO DEL LAS AULAS
+        #Estados: Alerta 0, Encendido 1, Apagado 2.
+        if estado [0] == 1: 
+            print ('En Alerta Aula.') 
+            print ('Alertando...')
+            time. sleep (5) #Hace un esfuerzo ya que cambio de estado
+            print('Ambiente Natural en la Aula \n')  #imprime el estado actual del sensor de humo
+        elif estado [1] == 1:
