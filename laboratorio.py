@@ -29,4 +29,10 @@ def ambiente():
             print ('Agente Apagado, en la Aula.') 
             print ('Encendido el agente en la Aula...') 
             time.sleep(5) #Hace un esfuerzo por esto se agrega un timepo
-            print('Listo para trabajar en la Aula\n') 
+            print('Listo para trabajar en la Aula\n')
+            #Entorno del Laboratorio
+        elif estado [0] == 1: # lab es igual a una alerta y debe pasar a encendido
+            print ('En Alerta el Laboratorio.') # imprimir el estado
+            print ('Alertando...') 
+            time. sleep (5) # generando costo aumenta el tiempo 
+            print('Ambiente Natural en el Laboratorio \n')  
