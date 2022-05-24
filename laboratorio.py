@@ -35,4 +35,8 @@ def ambiente():
             print ('En Alerta el Laboratorio.') # imprimir el estado
             print ('Alertando...') 
             time. sleep (5) # generando costo aumenta el tiempo 
-            print('Ambiente Natural en el Laboratorio \n')  
+            print('Ambiente Natural en el Laboratorio \n') 
+        if estado [1] == 1:
+            print ('Ambiente Normal en el Laboratorio.') 
+            print ('Ambiente Natural en el Laboratorio \n') 
+	    # No genera costo por lo tanto no hace suma a ningun tiempo 
