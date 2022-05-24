@@ -45,3 +45,13 @@ def ambiente():
             print ('Encendido el agente en el Laboratorio...') 
             time.sleep(5) #genera un costo
             print('Listo para trabajar en el Laboratorio \n')
+             #Entorno de la oficina 
+        if estado [0] == 1: 
+            print ('En Alerta la Oficina.') 
+            print ('Alertando...') 
+            time. sleep (5) #Hace un esfuerzo ya que cambio de estado
+            print('Ambiente Natural en la Oficina \n') 
+        elif estado [1] == 1:
+            print ('Ambiente Normal en la Oficina.') 
+            print ('Ambiente Natural en la Oficina \n') 
+            #Aqui no hace ningun esfuerzo ya que su estado se mantiene
