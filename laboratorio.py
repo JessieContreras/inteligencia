@@ -61,3 +61,5 @@ def ambiente():
             time.sleep(5) #Hace un esfuerzo por esto se agrega un timepo
             print('Listo para trabajar en la Oficina \n') 
             print('--Finalización--')
+            agente() # cerramos la función
+input() #finalización
