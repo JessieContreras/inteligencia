@@ -40,3 +40,8 @@ def ambiente():
             print ('Ambiente Normal en el Laboratorio.') 
             print ('Ambiente Natural en el Laboratorio \n') 
 	    # No genera costo por lo tanto no hace suma a ningun tiempo 
+        if estado [2]== 1: 
+            print ('Agente Apagado, en el Laboratorio.') 
+            print ('Encendido el agente en el Laboratorio...') 
+            time.sleep(5) #genera un costo
+            print('Listo para trabajar en el Laboratorio \n')
