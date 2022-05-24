@@ -55,3 +55,9 @@ def ambiente():
             print ('Ambiente Normal en la Oficina.') 
             print ('Ambiente Natural en la Oficina \n') 
             #Aqui no hace ningun esfuerzo ya que su estado se mantiene
+        if estado [2]== 1:
+            print ('Agente Apagado, en la Oficina.') 
+            print ('Encendido el agente en la Oficina...') 
+            time.sleep(5) #Hace un esfuerzo por esto se agrega un timepo
+            print('Listo para trabajar en la Oficina \n') 
+            print('--Finalización--')
